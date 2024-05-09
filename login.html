@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Legalchronical</title>
+  </head>
+
+  <body>
+    <div class="login">
+      <form class="form">
+        <h1>Inicia Sesión</h1>
+
+        <input type="text" placeholder="Ingresa el correo electrónico" />
+        <div class="input-group">
+          <input
+            class="form-control"
+            form="txtPassword"
+            id="txtPassword"
+            type="password"
+            placeholder="Introduce tu contraseña"
+          />
+          <button type="button" id="btnToggle" class="toggle">
+            <i id="eyeIcon" class="fa fa-eye"></i>
+          </button>
+        </div>
+
+        <p><a>Has olvidado tu contraseña?</a></p>
+        <button class="login-button">Ingresar</button>
+        <p>¿No tienes una cuenta? <a href="/Registro.html">Registrarme</a></p>
+      </form>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
